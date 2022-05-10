@@ -225,3 +225,127 @@ public:
 
 #### 二分查找：见 二分查找.md
 
+
+
+#### 带权重的随机选择算法：[528. 按权重随机选择](https://leetcode.cn/problems/random-pick-with-weight/)
+
+**难度==中等==**
+
+```C++
+class Solution {
+public:
+    Solution(vector<int>& w) {
+        presum.resize(w.size() + 1, 0);
+        for(int i = 1; i < presum.size(); i++){
+            presum[i] = presum[i - 1] + w[i - 1];
+        }
+    }
+    
+    int pickIndex() {
+        int n = presum.size();
+        int target = rand() % presum[n - 1] + 1; 
+        return left_bound(presum, target) - 1;    
+    }
+private:
+    vector<int> presum;
+    int left_bound(vector<int> &presum, int target){
+        int left = 0, right = presum.size() - 1;
+        while(left <= right){
+            int mid = (right - left)/2 + left;
+            if(presum[mid] < target){
+                left = mid + 1;
+            } else if(presum[mid] > target){
+                right = mid - 1;
+            } else {
+                right = mid - 1;
+            }
+        }
+        return left;
+    }
+};
+
+/**
+ * Your Solution object will be instantiated and called as such:
+ * Solution* obj = new Solution(w);
+ * int param_1 = obj->pickIndex();
+ */
+```
+
+
+
+#### 二分搜索应用：[875. 爱吃香蕉的珂珂](https://leetcode.cn/problems/koko-eating-bananas/)
+
+**难度==中等==**
+
+```c++
+class Solution {
+public:
+    int minEatingSpeed(vector<int>& piles, int h) {
+        int left = 1, right = *max_element(piles.begin(), piles.end());
+        while(left <= right){
+            int mid = (right - left)/2 + left;
+            if(finishtime(piles, mid) > h){
+                left = mid + 1;
+            } else {
+                right = mid - 1;
+            }
+        }
+        return left;
+    }
+
+private:
+    int finishtime(vector<int> &piles, int speed){
+        int sum = 0;
+        for(int i = 0; i < piles.size(); i++){
+            sum += (piles[i] + speed - 1) / speed;
+        }
+        return sum;
+    }
+};
+```
+
+
+
+#### 田忌赛马：[870. 优势洗牌](https://leetcode.cn/problems/advantage-shuffle/)
+
+**难度==中等==**
+
+```C++
+class Solution {
+public:
+    vector<int> advantageCount(vector<int>& nums1, vector<int>& nums2) {
+        sort(nums1.begin(), nums1.end());
+        priority_queue<pair<int, int>, vector<pair<int, int>>, cmp> q;
+
+        for(int i = 0; i < nums2.size(); i++){
+            q.push(make_pair(nums2[i], i));
+        }
+        
+        int n = nums1.size();
+        int left = 0, right = n - 1; 
+        vector<int> res(n, 0);
+        while(!q.empty()){
+            int maxval = q.top().first;
+            int index = q.top().second;
+            q.pop();
+            if(maxval < nums1[right]){
+                res[index] = nums1[right];
+                right--;
+            } else {
+                res[index] = nums1[left];
+                left++;
+            }
+        }
+        return res;
+    }
+private:
+    struct cmp{
+        bool operator()(pair<int, int> p1, pair<int, int> p2){
+            return p1.first < p2.first;
+        }
+    };
+};
+```
+
+
+
