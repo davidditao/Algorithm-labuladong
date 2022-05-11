@@ -349,3 +349,92 @@ private:
 
 
 
+
+
+#### 单调栈：[316. 去除重复字母](https://leetcode.cn/problems/remove-duplicate-letters/)
+
+**难度==中等==**
+
+[由浅入深，单调栈思路去除重复字符 - 去除重复字母 - 力扣（LeetCode）](https://leetcode.cn/problems/remove-duplicate-letters/solution/you-qian-ru-shen-dan-diao-zhan-si-lu-qu-chu-zhong-/)
+
+改进：可以直接将 res 做为单调栈，不用另开辟空间
+
+```C++
+class Solution {
+public:
+    string removeDuplicateLetters(string s) {
+        vector<bool> inStack(256, false);
+        vector<int> count(256, 0);
+        string res;
+        
+        for(char c : s){
+            count[c]++;
+        }
+
+        for(char c : s){
+            count[c]--;
+            if(inStack[c]){
+                continue;
+            }            
+            while(!res.empty() && res[res.size() - 1] > c){
+                if(count[res[res.size() - 1]] == 0){
+                    break;
+                }
+                inStack[res[res.size() - 1]] = false;
+                res.pop_back();
+            }
+            res += c;
+            inStack[c] = true;
+        }
+
+        return res;
+    }
+};
+```
+
+
+
+### 手把手刷图算法
+
+#### 图论基础：[797. 所有可能的路径](https://leetcode.cn/problems/all-paths-from-source-to-target/)
+
+**难度==中等==**
+
+自己写的题解：[797. 所有可能的路径：图的回溯](https://leetcode.cn/problems/all-paths-from-source-to-target/solution/by-pedantic-mcleanbpp-9xu5/)
+
+
+
+### 手把手设计数据结构
+
+#### 单调栈： [496. 下一个更大元素 I](https://leetcode.cn/problems/next-greater-element-i/)
+
+**难度简单**
+
+```C++
+class Solution {
+public:
+    vector<int> nextGreaterElement(vector<int>& nums1, vector<int>& nums2) {
+        stack<int> stk;
+        vector<int> nge(nums2.size(), 0);
+        unordered_map<int, int> map;
+        for(int i = 0; i < nums2.size(); i++){
+            map[nums2[i]] = i; 
+        }
+        for(int i = nums2.size() - 1; i >= 0; i--){
+            while(!stk.empty() && stk.top() <= nums2[i]){
+                stk.pop();
+            }
+            nge[i] = stk.empty() ? -1 : stk.top();
+            stk.push(nums2[i]);
+        }
+        vector<int> res;
+        for(int n : nums1){
+            int i = map[n];
+            res.push_back(nge[i]);
+        }
+
+        return res;
+    }
+};
+```
+
