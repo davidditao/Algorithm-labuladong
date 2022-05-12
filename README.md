@@ -404,6 +404,16 @@ public:
 
 
 
+
+
+#### 二分图：[785. 判断二分图](https://leetcode.cn/problems/is-graph-bipartite/)
+
+**难度==中等==**
+
+自己写的题解：[[判断二分图：DFS](https://leetcode.cn/problems/is-graph-bipartite/solution/dfs-by-pedantic-mcleanbpp-2qow/)](https://leetcode.cn/problems/is-graph-bipartite/)
+
+
+
 ### 手把手设计数据结构
 
 #### 单调栈： [496. 下一个更大元素 I](https://leetcode.cn/problems/next-greater-element-i/)
