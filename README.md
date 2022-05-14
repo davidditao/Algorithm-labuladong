@@ -404,13 +404,43 @@ public:
 
 
 
-
-
 #### 二分图：[785. 判断二分图](https://leetcode.cn/problems/is-graph-bipartite/)
 
 **难度==中等==**
 
-自己写的题解：[[判断二分图：DFS](https://leetcode.cn/problems/is-graph-bipartite/solution/dfs-by-pedantic-mcleanbpp-2qow/)](https://leetcode.cn/problems/is-graph-bipartite/)
+自己写的题解：[判断二分图：DFS](https://leetcode.cn/problems/is-graph-bipartite/)
+
+
+
+#### 判断图是否有环：[207. 课程表](https://leetcode.cn/problems/course-schedule/)
+
+**难度==中等==**
+
+自己写的题解：[判断图是否有环：图的回溯](https://leetcode.cn/problems/course-schedule/solution/by-pedantic-mcleanbpp-qyo6/)
+
+
+
+#### 拓扑排序：[210. 课程表 II](https://leetcode.cn/problems/course-schedule-ii/)
+
+**难度==中等==**
+
+自己写的题解：[图的拓扑排序：判断图是否有环+图的后序遍历](https://leetcode.cn/problems/course-schedule-ii/solution/by-pedantic-mcleanbpp-b6ke/)
+
+
+
+#### 岛屿问题：[130. 被围绕的区域](https://leetcode.cn/problems/surrounded-regions/)
+
+**难度==中等==**
+
+自己写的题解：[被围绕的区域：DFS + 并查集 ](https://leetcode.cn/problems/surrounded-regions/solution/bei-wei-rao-de-qu-yu-by-pedantic-mcleanb-wzmr/)
+
+
+
+#### 并查集：[130. 被围绕的区域 ](https://leetcode.cn/problems/surrounded-regions/)
+
+**难度==中等==**
+
+自己写的题解：[被围绕的区域：DFS + 并查集 ](https://leetcode.cn/problems/surrounded-regions/solution/bei-wei-rao-de-qu-yu-by-pedantic-mcleanb-wzmr/)
 
 
 
