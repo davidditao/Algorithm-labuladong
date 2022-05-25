@@ -482,6 +482,14 @@ public:
 
 
 
+### 🎁LRU 算法：[146. LRU 缓存](https://leetcode.cn/problems/lru-cache/)
+
+**难度==中等==**
+
+自己写的题解：[LRU缓存：哈希表+双向链表](https://leetcode.cn/problems/lru-cache/solution/l-by-pedantic-mcleanbpp-wnjx/)
+
+
+
 
 
 # 第二章、手把手刷动态规划
