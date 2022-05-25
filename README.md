@@ -2,19 +2,19 @@
 
 
 
-## 第零章、核心框架汇总
+# 第零章、核心框架汇总
 
 
 
-## 第一章、手把手刷数据结构
+# 第一章、手把手刷数据结构
 
-### 手把手刷链表算法
+## 1. 手把手刷链表算法
 
 
 
-### 手把手刷数组算法
+## 2. 手把手刷数组算法
 
-#### 前缀和：[304. 二维区域和检索 - 矩阵不可变](https://leetcode-cn.com/problems/range-sum-query-2d-immutable/)
+### 🎁前缀和：[304. 二维区域和检索 - 矩阵不可变](https://leetcode-cn.com/problems/range-sum-query-2d-immutable/)
 
 **难度简单**
 
@@ -46,7 +46,7 @@ private:
 
 
 
-#### 差分数组：[1094. 拼车](https://leetcode-cn.com/problems/car-pooling/)
+### 🎁差分数组：[1094. 拼车](https://leetcode-cn.com/problems/car-pooling/)
 
 **难度==中等==**
 
@@ -101,7 +101,7 @@ public:
 
 
 
-#### 双指针-重复元素：[26. 删除有序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)
+### 🎁双指针-重复元素：[26. 删除有序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)
 
 **难度简单**
 
@@ -124,7 +124,7 @@ public:
 
 
 
-#### 二维数组的花式遍历：[54. 螺旋矩阵](https://leetcode-cn.com/problems/spiral-matrix/)
+### 🎁二维数组的花式遍历：[54. 螺旋矩阵](https://leetcode-cn.com/problems/spiral-matrix/)
 
 **难度==中等==**
 
@@ -171,7 +171,7 @@ public:
 
 
 
-#### 滑动窗口：[76. 最小覆盖子串](https://leetcode-cn.com/problems/minimum-window-substring/)
+### 🎁滑动窗口：[76. 最小覆盖子串](https://leetcode-cn.com/problems/minimum-window-substring/)
 
 **难度==困难==**
 
@@ -223,11 +223,13 @@ public:
 
 
 
-#### 二分查找：见 二分查找.md
+### 🎁二分查找：[704. 二分查找](https://leetcode.cn/problems/binary-search/)
+
+自己写的题解：[二分查找模版总结](https://leetcode.cn/problems/binary-search/solution/er-fen-cha-zhao-by-pedantic-mcleanbpp-w419/)
 
 
 
-#### 带权重的随机选择算法：[528. 按权重随机选择](https://leetcode.cn/problems/random-pick-with-weight/)
+### 🎁带权重的随机选择算法：[528. 按权重随机选择](https://leetcode.cn/problems/random-pick-with-weight/)
 
 **难度==中等==**
 
@@ -273,7 +275,7 @@ private:
 
 
 
-#### 二分搜索应用：[875. 爱吃香蕉的珂珂](https://leetcode.cn/problems/koko-eating-bananas/)
+### 🎁二分搜索应用：[875. 爱吃香蕉的珂珂](https://leetcode.cn/problems/koko-eating-bananas/)
 
 **难度==中等==**
 
@@ -306,7 +308,7 @@ private:
 
 
 
-#### 田忌赛马：[870. 优势洗牌](https://leetcode.cn/problems/advantage-shuffle/)
+### 🎁田忌赛马：[870. 优势洗牌](https://leetcode.cn/problems/advantage-shuffle/)
 
 **难度==中等==**
 
@@ -351,7 +353,7 @@ private:
 
 
 
-#### 单调栈：[316. 去除重复字母](https://leetcode.cn/problems/remove-duplicate-letters/)
+### 🎁单调栈：[316. 去除重复字母](https://leetcode.cn/problems/remove-duplicate-letters/)
 
 **难度==中等==**
 
@@ -394,9 +396,9 @@ public:
 
 
 
-### 手把手刷图算法
+## 3. 手把手刷图算法
 
-#### 图论基础：[797. 所有可能的路径](https://leetcode.cn/problems/all-paths-from-source-to-target/)
+### 🎁图论基础：[797. 所有可能的路径](https://leetcode.cn/problems/all-paths-from-source-to-target/)
 
 **难度==中等==**
 
@@ -404,7 +406,7 @@ public:
 
 
 
-#### 二分图：[785. 判断二分图](https://leetcode.cn/problems/is-graph-bipartite/)
+### 🎁二分图：[785. 判断二分图](https://leetcode.cn/problems/is-graph-bipartite/)
 
 **难度==中等==**
 
@@ -412,7 +414,7 @@ public:
 
 
 
-#### 判断图是否有环：[207. 课程表](https://leetcode.cn/problems/course-schedule/)
+### 🎁判断图是否有环：[207. 课程表](https://leetcode.cn/problems/course-schedule/)
 
 **难度==中等==**
 
@@ -420,7 +422,7 @@ public:
 
 
 
-#### 拓扑排序：[210. 课程表 II](https://leetcode.cn/problems/course-schedule-ii/)
+### 🎁拓扑排序：[210. 课程表 II](https://leetcode.cn/problems/course-schedule-ii/)
 
 **难度==中等==**
 
@@ -428,7 +430,7 @@ public:
 
 
 
-#### 岛屿问题：[130. 被围绕的区域](https://leetcode.cn/problems/surrounded-regions/)
+### 🎁岛屿问题：[130. 被围绕的区域](https://leetcode.cn/problems/surrounded-regions/)
 
 **难度==中等==**
 
@@ -436,7 +438,7 @@ public:
 
 
 
-#### 并查集：[130. 被围绕的区域 ](https://leetcode.cn/problems/surrounded-regions/)
+### 🎁并查集：[130. 被围绕的区域 ](https://leetcode.cn/problems/surrounded-regions/)
 
 **难度==中等==**
 
@@ -444,9 +446,9 @@ public:
 
 
 
-### 手把手设计数据结构
+## 4. 手把手设计数据结构
 
-#### 单调栈： [496. 下一个更大元素 I](https://leetcode.cn/problems/next-greater-element-i/)
+### 🎁单调栈： [496. 下一个更大元素 I](https://leetcode.cn/problems/next-greater-element-i/)
 
 **难度简单**
 
@@ -477,4 +479,132 @@ public:
     }
 };
 ```
+
+
+
+
+
+# 第二章、手把手刷动态规划
+
+## 1. 动态规划基本技巧
+
+### 🎁动态规划核心原理：[322. 零钱兑换](https://leetcode.cn/problems/coin-change/)
+
+**难度==中等==**
+
+自己写的题解：[零钱兑换：动态规划 ](https://leetcode.cn/problems/coin-change/solution/dstd-by-pedantic-mcleanbpp-4cil/)
+
+
+
+### 🎁动态规划设计方法：[300. 最长递增子序列](https://leetcode.cn/problems/longest-increasing-subsequence/)
+
+**难度==中等==**
+
+自己写的题解：[最长递增子序列：动态规划+二分查找 ](https://leetcode.cn/problems/longest-increasing-subsequence/solution/zui-chang-di-by-pedantic-mcleanbpp-q3zk/)
+
+
+
+### 🎁base case 的初始值如何设置：[931. 下降路径最小和
+
+[难度==中等==](https://leetcode.cn/problems/minimum-falling-path-sum/)
+
+自己写的题解：[下降路径最小和：动态规划 - 下降路径最小和 - 力扣（LeetCode）](https://leetcode.cn/problems/minimum-falling-path-sum/solution/xia-jiang-lu-jing-zui-xiao-he-dong-tai-g-nv58/)
+
+
+
+## 2. 子序列类型问题
+
+### 🎁编辑距离：72. 编辑距离
+
+[难度==困难==](https://leetcode.cn/problems/edit-distance/)
+
+自己写的题解：[编辑距离：动态规划](https://leetcode.cn/problems/edit-distance/solution/bian-ji-ju-chi-by-pedantic-mcleanbpp-7v9e/)
+
+
+
+## 3. 用动态规划玩游戏
+
+### 🎁魔塔游戏：[174. 地下城游戏](https://leetcode.cn/problems/dungeon-game/)
+
+**难度==困难==**
+
+自己写的题解：[地下城游戏：DFS＋后序遍历+动态规划思想](https://leetcode.cn/problems/dungeon-game/solution/c-by-pedantic-mcleanbpp-hwv5/)
+
+
+
+# 第三章、必知必会算法技巧
+
+## 1. 暴力搜索算法
+
+### 🎁回溯算法：[51. N 皇后](https://leetcode.cn/problems/n-queens/)
+
+**难度==困难==**
+
+自己写的题解：[N皇后：回溯](https://leetcode.cn/problems/n-queens/solution/nhuang-hou-hui-su-by-pedantic-mcleanbpp-dy29/)
+
+
+
+### 🎁回溯算法解决排列组合和子集问题：[46. 全排列](https://leetcode.cn/problems/permutations/)
+
+自己写的题解：[回溯问题大合集：子集、组合、排列 ](https://leetcode.cn/problems/permutations/solution/hui-su-wen-ti-by-pedantic-mcleanbpp-qal3/)
+
+
+
+### 🎁回溯算法解决集合划分问题：[698. 划分为k个相等的子集 - 力扣（LeetCode）](https://leetcode.cn/problems/partition-to-k-equal-sum-subsets/)
+
+**难度==中等==**
+
+自己写的题解：[集合划分问题：回溯 - 划分为k个相等的子集](https://leetcode.cn/problems/partition-to-k-equal-sum-subsets/solution/hua-fen-zi-ji-wen-ti-by-pedantic-mcleanb-vi1h/)
+
+
+
+### 🎁BFS 算法：[752. 打开转盘锁](https://leetcode.cn/problems/open-the-lock/)
+
+**难度==中等==**
+
+自己写的题解：[最短路径：广度优先搜索 - 打开转盘锁](https://leetcode.cn/problems/open-the-lock/solution/by-pedantic-mcleanbpp-e5lb/)
+
+
+
+
+
+
+
+
+
+
+
+[常数时间删除/查找数组中的任意元素 :: labuladong的算法小抄](https://labuladong.github.io/algo/2/18/30/)
+
+[单调队列结构解决滑动窗口问题 :: labuladong的算法小抄](https://labuladong.github.io/algo/2/21/61/)
+
+[东哥带你刷二叉树（纲领篇） :: labuladong的算法小抄](https://labuladong.github.io/algo/2/19/33/)
+
+[东哥带你刷二叉树（思路篇） :: labuladong的算法小抄](https://labuladong.github.io/algo/2/19/34/)
+
+[东哥带你刷二叉搜索树（基操篇） :: labuladong的算法小抄](https://labuladong.github.io/algo/2/19/40/)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
