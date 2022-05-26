@@ -10,6 +10,40 @@
 
 ## 1. 手把手刷链表算法
 
+### 🎁合并链表：[23. 合并K个升序链表](https://leetcode.cn/problems/merge-k-sorted-lists/)
+
+自己写的题解：[合并K个升序链表：优先队列](https://leetcode.cn/problems/merge-k-sorted-lists/solution/by-pedantic-mcleanbpp-lkxs/)
+
+
+
+### 🎁环形链表：[142. 环形链表 II](https://leetcode.cn/problems/linked-list-cycle-ii/)
+
+自己写的题解：[环形链表：双指针](https://leetcode.cn/problems/linked-list-cycle-ii/solution/huan-xing-lian-biao-by-pedantic-mcleanbp-ljwq/)
+
+
+
+### 🎁相交链表：[160. 相交链表](https://leetcode.cn/problems/intersection-of-two-linked-lists/)
+
+自己写的题解：[相交链表：双指针](https://leetcode.cn/problems/intersection-of-two-linked-lists/solution/xiang-jiao-lian-biao-shuang-zhi-zhen-by-8it64/)
+
+
+
+### 🎁反转链表：[92. 反转链表 II](https://leetcode.cn/problems/reverse-linked-list-ii/)
+
+自己写的题解：[反转链表：递归 - 反转链表 II ](https://leetcode.cn/problems/reverse-linked-list-ii/solution/fan-zhuan-lian-biao-by-pedantic-mcleanbp-x4bl/)
+
+
+
+### 🎁K个一组反转链表：[25. K 个一组翻转链表](https://leetcode.cn/problems/reverse-nodes-in-k-group/)
+
+自己写的题解：[K个一组反转链表](https://leetcode.cn/problems/reverse-nodes-in-k-group/solution/fan-zhuan-by-pedantic-mcleanbpp-ryr8/)
+
+
+
+### 🎁回文链表：[234. 回文链表](https://leetcode.cn/problems/palindrome-linked-list/)
+
+自己写的题解：[回文链表：反转链表 + 链表中间结点](https://leetcode.cn/problems/palindrome-linked-list/solution/hui-wen-lian-biao-fan-zhuan-lian-biao-by-irf3/)
+
 
 
 ## 2. 手把手刷数组算法
@@ -512,7 +546,7 @@ public:
 
 
 
-### 🎁base case 的初始值如何设置：[931. 下降路径最小和
+### 🎁base case 的初始值如何设置：[931. 下降路径最小和](https://leetcode.cn/problems/minimum-falling-path-sum/)
 
 [难度==中等==](https://leetcode.cn/problems/minimum-falling-path-sum/)
 
@@ -522,7 +556,7 @@ public:
 
 ## 2. 子序列类型问题
 
-### 🎁编辑距离：72. 编辑距离
+### 🎁编辑距离：[72. 编辑距离](https://leetcode.cn/problems/edit-distance/)
 
 [难度==困难==](https://leetcode.cn/problems/edit-distance/)
 
