@@ -389,8 +389,6 @@ private:
 
 ### 🎁单调栈：[316. 去除重复字母](https://leetcode.cn/problems/remove-duplicate-letters/)
 
-**难度==中等==**
-
 [由浅入深，单调栈思路去除重复字符 - 去除重复字母 - 力扣（LeetCode）](https://leetcode.cn/problems/remove-duplicate-letters/solution/you-qian-ru-shen-dan-diao-zhan-si-lu-qu-chu-zhong-/)
 
 改进：可以直接将 res 做为单调栈，不用另开辟空间
@@ -434,15 +432,11 @@ public:
 
 ### 🎁图论基础：[797. 所有可能的路径](https://leetcode.cn/problems/all-paths-from-source-to-target/)
 
-**难度==中等==**
-
 自己写的题解：[797. 所有可能的路径：图的回溯](https://leetcode.cn/problems/all-paths-from-source-to-target/solution/by-pedantic-mcleanbpp-9xu5/)
 
 
 
 ### 🎁二分图：[785. 判断二分图](https://leetcode.cn/problems/is-graph-bipartite/)
-
-**难度==中等==**
 
 自己写的题解：[判断二分图：DFS](https://leetcode.cn/problems/is-graph-bipartite/)
 
@@ -450,15 +444,11 @@ public:
 
 ### 🎁判断图是否有环：[207. 课程表](https://leetcode.cn/problems/course-schedule/)
 
-**难度==中等==**
-
 自己写的题解：[判断图是否有环：图的回溯](https://leetcode.cn/problems/course-schedule/solution/by-pedantic-mcleanbpp-qyo6/)
 
 
 
 ### 🎁拓扑排序：[210. 课程表 II](https://leetcode.cn/problems/course-schedule-ii/)
-
-**难度==中等==**
 
 自己写的题解：[图的拓扑排序：判断图是否有环+图的后序遍历](https://leetcode.cn/problems/course-schedule-ii/solution/by-pedantic-mcleanbpp-b6ke/)
 
@@ -466,15 +456,11 @@ public:
 
 ### 🎁岛屿问题：[130. 被围绕的区域](https://leetcode.cn/problems/surrounded-regions/)
 
-**难度==中等==**
-
 自己写的题解：[被围绕的区域：DFS + 并查集 ](https://leetcode.cn/problems/surrounded-regions/solution/bei-wei-rao-de-qu-yu-by-pedantic-mcleanb-wzmr/)
 
 
 
 ### 🎁并查集：[130. 被围绕的区域 ](https://leetcode.cn/problems/surrounded-regions/)
-
-**难度==中等==**
 
 自己写的题解：[被围绕的区域：DFS + 并查集 ](https://leetcode.cn/problems/surrounded-regions/solution/bei-wei-rao-de-qu-yu-by-pedantic-mcleanb-wzmr/)
 
@@ -518,8 +504,6 @@ public:
 
 ### 🎁LRU 算法：[146. LRU 缓存](https://leetcode.cn/problems/lru-cache/)
 
-**难度==中等==**
-
 自己写的题解：[LRU缓存：哈希表+双向链表](https://leetcode.cn/problems/lru-cache/solution/l-by-pedantic-mcleanbpp-wnjx/)
 
 
@@ -532,23 +516,19 @@ public:
 
 ### 🎁动态规划核心原理：[322. 零钱兑换](https://leetcode.cn/problems/coin-change/)
 
-**难度==中等==**
-
 自己写的题解：[零钱兑换：动态规划 ](https://leetcode.cn/problems/coin-change/solution/dstd-by-pedantic-mcleanbpp-4cil/)
 
 
 
 ### 🎁动态规划设计方法：[300. 最长递增子序列](https://leetcode.cn/problems/longest-increasing-subsequence/)
 
-**难度==中等==**
+
 
 自己写的题解：[最长递增子序列：动态规划+二分查找 ](https://leetcode.cn/problems/longest-increasing-subsequence/solution/zui-chang-di-by-pedantic-mcleanbpp-q3zk/)
 
 
 
 ### 🎁base case 的初始值如何设置：[931. 下降路径最小和](https://leetcode.cn/problems/minimum-falling-path-sum/)
-
-[难度==中等==](https://leetcode.cn/problems/minimum-falling-path-sum/)
 
 自己写的题解：[下降路径最小和：动态规划 - 下降路径最小和 - 力扣（LeetCode）](https://leetcode.cn/problems/minimum-falling-path-sum/solution/xia-jiang-lu-jing-zui-xiao-he-dong-tai-g-nv58/)
 
@@ -558,8 +538,6 @@ public:
 
 ### 🎁编辑距离：[72. 编辑距离](https://leetcode.cn/problems/edit-distance/)
 
-[难度==困难==](https://leetcode.cn/problems/edit-distance/)
-
 自己写的题解：[编辑距离：动态规划](https://leetcode.cn/problems/edit-distance/solution/bian-ji-ju-chi-by-pedantic-mcleanbpp-7v9e/)
 
 
@@ -567,8 +545,6 @@ public:
 ## 3. 用动态规划玩游戏
 
 ### 🎁魔塔游戏：[174. 地下城游戏](https://leetcode.cn/problems/dungeon-game/)
-
-**难度==困难==**
 
 自己写的题解：[地下城游戏：DFS＋后序遍历+动态规划思想](https://leetcode.cn/problems/dungeon-game/solution/c-by-pedantic-mcleanbpp-hwv5/)
 
@@ -579,8 +555,6 @@ public:
 ## 1. 暴力搜索算法
 
 ### 🎁回溯算法：[51. N 皇后](https://leetcode.cn/problems/n-queens/)
-
-**难度==困难==**
 
 自己写的题解：[N皇后：回溯](https://leetcode.cn/problems/n-queens/solution/nhuang-hou-hui-su-by-pedantic-mcleanbpp-dy29/)
 
@@ -594,15 +568,11 @@ public:
 
 ### 🎁回溯算法解决集合划分问题：[698. 划分为k个相等的子集 - 力扣（LeetCode）](https://leetcode.cn/problems/partition-to-k-equal-sum-subsets/)
 
-**难度==中等==**
-
 自己写的题解：[集合划分问题：回溯 - 划分为k个相等的子集](https://leetcode.cn/problems/partition-to-k-equal-sum-subsets/solution/hua-fen-zi-ji-wen-ti-by-pedantic-mcleanb-vi1h/)
 
 
 
 ### 🎁BFS 算法：[752. 打开转盘锁](https://leetcode.cn/problems/open-the-lock/)
-
-**难度==中等==**
 
 自己写的题解：[最短路径：广度优先搜索 - 打开转盘锁](https://leetcode.cn/problems/open-the-lock/solution/by-pedantic-mcleanbpp-e5lb/)
 
