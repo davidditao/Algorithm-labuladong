@@ -385,6 +385,10 @@ private:
 
 
 
+### 🎁常数时间删除/查找数组中的任意元素：[380. O(1) 时间插入、删除和获取随机元素](https://leetcode.cn/problems/insert-delete-getrandom-o1/) + [710. 黑名单中的随机数](https://leetcode.cn/problems/random-pick-with-blacklist/)
+
+自己写的题解：[O(1) 时间插入、删除和获取随机元素：变长数组+哈希表](https://leetcode.cn/problems/insert-delete-getrandom-o1/solution/380-o1-shi-jian-cha-ru-shan-chu-he-huo-q-8cik/) + [黑名单中的随机数：哈希表 - 黑名单中的随机数 - 力扣（LeetCode）](https://leetcode.cn/problems/random-pick-with-blacklist/solution/hei-ming-dan-zhong-de-sui-ji-shu-by-peda-lmpe/)
+
 
 
 ### 🎁单调栈：[316. 去除重复字母](https://leetcode.cn/problems/remove-duplicate-letters/)
