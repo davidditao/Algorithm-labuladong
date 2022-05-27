@@ -590,8 +590,6 @@ public:
 
 # 待做：
 
-[常数时间删除/查找数组中的任意元素 :: labuladong的算法小抄](https://labuladong.github.io/algo/2/18/30/)
-
 [单调队列结构解决滑动窗口问题 :: labuladong的算法小抄](https://labuladong.github.io/algo/2/21/61/)
 
 [东哥带你刷二叉树（纲领篇） :: labuladong的算法小抄](https://labuladong.github.io/algo/2/19/33/)
