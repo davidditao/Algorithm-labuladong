@@ -512,6 +512,10 @@ public:
 
 
 
+### 🎁单调队列结构解决滑动窗口问题：[239. 滑动窗口最大值](https://leetcode.cn/problems/sliding-window-maximum/)
+
+自己写的题解：[滑动窗口最大值：堆（优先队列）、单调队列 - 滑动窗口最大值](https://leetcode.cn/problems/sliding-window-maximum/solution/hua-dong-chuang-kou-zui-da-zhi-by-pedant-ljr5/)
+
 
 
 # 第二章、手把手刷动态规划
@@ -589,8 +593,6 @@ public:
 
 
 # 待做：
-
-[单调队列结构解决滑动窗口问题 :: labuladong的算法小抄](https://labuladong.github.io/algo/2/21/61/)
 
 [东哥带你刷二叉树（纲领篇） :: labuladong的算法小抄](https://labuladong.github.io/algo/2/19/33/)
 
