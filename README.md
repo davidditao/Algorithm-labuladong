@@ -432,7 +432,27 @@ public:
 
 
 
-## 3. 手把手刷图算法
+## 3. 手把手刷二叉树算法
+
+### 🎁后序遍历解决二叉树深度问题：[543. 二叉树的直径](https://leetcode.cn/problems/diameter-of-binary-tree/)
+
+自己写的题解：[二叉树的直径：后序遍历解决二叉树深度问题 ](https://leetcode.cn/problems/diameter-of-binary-tree/solution/er-cha-shu-de-zhi-jing-by-pedantic-mclea-ckf8/)
+
+
+
+### 🎁后序遍历应用：[114. 二叉树展开为链表](https://leetcode.cn/problems/flatten-binary-tree-to-linked-list/)
+
+自己写的题解：[二叉树展开为链表：后序遍历](https://leetcode.cn/problems/flatten-binary-tree-to-linked-list/solution/er-y-by-pedantic-mcleanbpp-za58/)
+
+
+
+### 🎁前序遍历应用：[116. 填充每个节点的下一个右侧节点指针](https://leetcode.cn/problems/populating-next-right-pointers-in-each-node/)
+
+自己写的题解：[填充每个节点的下一个右侧节点指针：DFS](https://leetcode.cn/problems/populating-next-right-pointers-in-each-node/solution/tian-chong-mei-ge-jie-dian-de-xia-yi-ge-dkm3r/)
+
+
+
+## 4. 手把手刷图算法
 
 ### 🎁图论基础：[797. 所有可能的路径](https://leetcode.cn/problems/all-paths-from-source-to-target/)
 
@@ -470,7 +490,7 @@ public:
 
 
 
-## 4. 手把手设计数据结构
+## 5. 手把手设计数据结构
 
 ### 🎁单调栈： [496. 下一个更大元素 I](https://leetcode.cn/problems/next-greater-element-i/)
 
@@ -586,6 +606,12 @@ public:
 
 
 
+## 2. 经典面试题
+
+### 🎁接雨水：[42. 接雨水](https://leetcode.cn/problems/trapping-rain-water/)
+
+自己写的题解：[接雨水：动态规划+双指针+单调栈](https://leetcode.cn/problems/trapping-rain-water/solution/jie-yu-shui-by-pedantic-mcleanbpp-jpqm/)
+
 
 
 
@@ -593,10 +619,6 @@ public:
 
 
 # 待做：
-
-[东哥带你刷二叉树（纲领篇） :: labuladong的算法小抄](https://labuladong.github.io/algo/2/19/33/)
-
-[东哥带你刷二叉树（思路篇） :: labuladong的算法小抄](https://labuladong.github.io/algo/2/19/34/)
 
 [东哥带你刷二叉搜索树（基操篇） :: labuladong的算法小抄](https://labuladong.github.io/algo/2/19/40/)
 
