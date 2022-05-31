@@ -452,6 +452,12 @@ public:
 
 
 
+### 🎁构造二叉树：[105. 从前序与中序遍历序列构造二叉树](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+
+自己写的题解：[二叉树的构造问题解题方法 ](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal/solution/gou-zao-er-cha-shu-by-pedantic-mcleanbpp-7ij7/)
+
+
+
 ## 4. 手把手刷图算法
 
 ### 🎁图论基础：[797. 所有可能的路径](https://leetcode.cn/problems/all-paths-from-source-to-target/)
