@@ -458,6 +458,12 @@ public:
 
 
 
+### 🎁二叉树的序列化与反序列化：[297. 二叉树的序列化与反序列化](https://leetcode.cn/problems/serialize-and-deserialize-binary-tree/)
+
+自己写的题解：[二叉树的序列化与反序列化：DFS+BFS - 二叉树的序列化与反序列化 - 力扣（LeetCode）](https://leetcode.cn/problems/serialize-and-deserialize-binary-tree/solution/er-cha-shu-de-xu-lie-hua-yu-fan-xu-lie-h-htxc/)
+
+
+
 ## 4. 手把手刷图算法
 
 ### 🎁图论基础：[797. 所有可能的路径](https://leetcode.cn/problems/all-paths-from-source-to-target/)
