@@ -464,6 +464,24 @@ public:
 
 
 
+### 🎁后序遍历+序列化：[652. 寻找重复的子树](https://leetcode.cn/problems/find-duplicate-subtrees/)
+
+自己写的题解：[寻找重复的子树：后序遍历+序列化二叉树 - 寻找重复的子树 - 力扣（LeetCode）](https://leetcode.cn/problems/find-duplicate-subtrees/solution/xun-zhao-zhong-fu-de-zi-shu-hou-xuh-by-p-oeaw/)
+
+
+
+### 🎁归并排序解决逆序对问题：[剑指 Offer 51. 数组中的逆序对](https://leetcode.cn/problems/shu-zu-zhong-de-ni-xu-dui-lcof/)
+
+自己写的题解：[数组中的逆序对：归并排序](https://leetcode.cn/problems/shu-zu-zhong-de-ni-xu-dui-lcof/solution/shu-zu-zhong-de-by-pedantic-mcleanbpp-600u/)
+
+
+
+### 🎁二叉搜索树的性质：[538. 把二叉搜索树转换为累加树](https://leetcode.cn/problems/convert-bst-to-greater-tree/)
+
+自己写的题解：[把二叉搜索树转换为累加树：中序遍历 - 把二叉搜索树转换为累加树 - 力扣（LeetCode）](https://leetcode.cn/problems/convert-bst-to-greater-tree/solution/ba-er-cha-sou-suo-shu-zhuan-huan-wei-lei-vl8k/)
+
+
+
 ## 4. 手把手刷图算法
 
 ### 🎁图论基础：[797. 所有可能的路径](https://leetcode.cn/problems/all-paths-from-source-to-target/)
