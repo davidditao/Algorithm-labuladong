@@ -478,7 +478,13 @@ public:
 
 ### 🎁二叉搜索树的性质：[538. 把二叉搜索树转换为累加树](https://leetcode.cn/problems/convert-bst-to-greater-tree/)
 
-自己写的题解：[把二叉搜索树转换为累加树：中序遍历 - 把二叉搜索树转换为累加树 - 力扣（LeetCode）](https://leetcode.cn/problems/convert-bst-to-greater-tree/solution/ba-er-cha-sou-suo-shu-zhuan-huan-wei-lei-vl8k/)
+自己写的题解：[把二叉搜索树转换为累加树：中序遍历 ](https://leetcode.cn/problems/convert-bst-to-greater-tree/solution/ba-er-cha-sou-suo-shu-zhuan-huan-wei-lei-vl8k/)
+
+
+
+### 🎁二叉搜索树的增删改查操作：[700. 二叉搜索树中的搜索](https://leetcode.cn/problems/search-in-a-binary-search-tree/)
+
+自己写的题解：[二叉搜索树的增删改查操作](https://leetcode.cn/problems/search-in-a-binary-search-tree/solution/er-cha-sou-suo-shu-de-by-pedantic-mclean-omuw/)
 
 
 
