@@ -470,6 +470,12 @@ public:
 
 
 
+### 🎁排序算法：[912. 排序数组](https://leetcode.cn/problems/sort-an-array/)
+
+自己写的题解：[排序算法](https://leetcode.cn/problems/sort-an-array/solution/pai-xu-suan-fa-by-pedantic-mcleanbpp-jsin/)
+
+
+
 ### 🎁归并排序解决逆序对问题：[剑指 Offer 51. 数组中的逆序对](https://leetcode.cn/problems/shu-zu-zhong-de-ni-xu-dui-lcof/)
 
 自己写的题解：[数组中的逆序对：归并排序](https://leetcode.cn/problems/shu-zu-zhong-de-ni-xu-dui-lcof/solution/shu-zu-zhong-de-by-pedantic-mcleanbpp-600u/)
@@ -485,6 +491,18 @@ public:
 ### 🎁二叉搜索树的增删改查操作：[700. 二叉搜索树中的搜索](https://leetcode.cn/problems/search-in-a-binary-search-tree/)
 
 自己写的题解：[二叉搜索树的增删改查操作](https://leetcode.cn/problems/search-in-a-binary-search-tree/solution/er-cha-sou-suo-shu-de-by-pedantic-mclean-omuw/)
+
+
+
+### 🎁构造二叉搜索树：[96. 不同的二叉搜索树](https://leetcode.cn/problems/unique-binary-search-trees/)
+
+自己写的题解：[不同的二叉搜索树：暴力搜索 + 优化 = 动态规划](https://leetcode.cn/problems/unique-binary-search-trees/solution/by-pedantic-mcleanbpp-x4f8/)
+
+
+
+### 🎁快速选择算法：[215. 数组中的第K个最大元素](https://leetcode.cn/problems/kth-largest-element-in-an-array/)
+
+自己写的题解：[数组中的第k个最大元素：优先队列 + 快速选择算法](https://leetcode.cn/problems/kth-largest-element-in-an-array/solution/shu-zu-zhong-by-pedantic-mcleanbpp-m2us/)
 
 
 
@@ -586,8 +604,6 @@ public:
 
 ### 🎁动态规划设计方法：[300. 最长递增子序列](https://leetcode.cn/problems/longest-increasing-subsequence/)
 
-
-
 自己写的题解：[最长递增子序列：动态规划+二分查找 ](https://leetcode.cn/problems/longest-increasing-subsequence/solution/zui-chang-di-by-pedantic-mcleanbpp-q3zk/)
 
 
@@ -647,20 +663,6 @@ public:
 ### 🎁接雨水：[42. 接雨水](https://leetcode.cn/problems/trapping-rain-water/)
 
 自己写的题解：[接雨水：动态规划+双指针+单调栈](https://leetcode.cn/problems/trapping-rain-water/solution/jie-yu-shui-by-pedantic-mcleanbpp-jpqm/)
-
-
-
-
-
-
-
-# 待做：
-
-[东哥带你刷二叉搜索树（基操篇） :: labuladong的算法小抄](https://labuladong.github.io/algo/2/19/40/)
-
-
-
-
 
 
 
