@@ -1,5 +1,139 @@
 **这是 [labuladong 的算法小抄](https://labuladong.github.io/algo/) 的刷题记录。每一节选一道代表题目，方便快速复习。**
 
+# LeetCode上的 Debug 小技巧
+
+补充一个在LeetCode网页上刷题的时候的 Debug 技巧。因为非会员在 LeetCode 上没有调试功能，所以我们只能 `print` 打印一些关键变量的值。
+
+**但是如果遇到递归算法的时候，直接打印变量会十分混乱。**这里提供一个十分好用的方法。
+
+首先我们需要定义一个函数 `debug` 和一个全局变量 `_count`，然后在递归函数开始时执行`debug(_count++)` 在递归函数结束前执行`debug(--_count)`。然后在中间我们就可以正常打印我们打印的关键变量。`debug`函数如下：
+
+```C++
+// 调试
+int _count = 0;
+void debug(int count){
+    // 打印 count 个缩进
+    for(int i = 0; i < count; i++){
+        printf("    ");
+    }
+}
+```
+
+**我们以一个较为复杂的题目 [236. 二叉树的最近公共祖先](https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/) 为例**，递归版本的算法如下：
+
+```C++
+class Solution {
+public:
+    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
+        return dfs(root, p, q);
+    }
+private:
+    TreeNode* dfs(TreeNode *root, TreeNode *p, TreeNode *q){
+        if(root == nullptr){
+            return nullptr;
+        }
+        if(root == p || root == q){
+            return root;
+        }
+        TreeNode *left = dfs(root->left, p, q);
+        TreeNode *right = dfs(root->right, p, q);
+
+        if(left != nullptr && right != nullptr){
+            return root;
+        } 
+        return left == nullptr ? right : left;
+    }
+};
+```
+
+我们进行 debug 打印关键变量的信息：
+
+```C++
+class Solution {
+public:
+    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
+        return dfs(root, p, q);
+    }
+private:
+    // 调试
+    int _count = 0;
+    void debug(int count){
+        for(int i = 0; i < count; i++){
+            printf("    ");
+        }
+        printf("[%d] ", count);
+    }
+
+    TreeNode* dfs(TreeNode *root, TreeNode *p, TreeNode *q){
+        // 函数开始时调用debug，并打印当前节点的信息
+        debug(_count++);
+        cout<<"node: ";
+        root == nullptr ? cout<<"nullptr"<<endl : cout<<root->val<<endl;
+
+        if(root == nullptr){
+            // 函数结束时调用debug，并打印返回值的信息
+            debug(--_count);
+            cout<<"retrun nullptr"<<endl;
+
+            return nullptr;
+        }
+        if(root == p || root == q){
+            // 函数结束时调用debug，并打印返回值的信息
+            debug(--_count);
+            cout<<"return "<<root->val<<endl;
+
+            return root;
+        }
+        TreeNode *left = dfs(root->left, p, q);
+        TreeNode *right = dfs(root->right, p, q);
+
+        if(left != nullptr && right != nullptr){
+            // 函数结束时调用debug，并打印返回值的信息
+            debug(--_count);
+            cout<<"return ";
+            root == nullptr ? cout<<"nullptr"<<endl : cout<<root->val<<endl;
+
+            return root;
+        } 
+
+        // 函数结束时调用debug，并打印返回值的信息
+        debug(--_count);
+        cout<<"return ";
+        TreeNode *node =  left == nullptr ? right : left;
+        node == nullptr ? cout<<"nullptr"<<endl : cout<<node->val<<endl;
+
+        return left == nullptr ? right : left;
+    }
+};
+```
+
+打印结果如下：
+
+```C++
+/**
+* 输入：
+* [3,5,1,6,2,0,8,null,null,7,4]
+* 5
+* 8
+*/
+[0] node: 3
+    [1] node: 5
+    [1] return 5
+    [1] node: 1
+        [2] node: 0
+            [3] node: nullptr
+            [3] retrun nullptr
+            [3] node: nullptr
+            [3] retrun nullptr
+        [2] return nullptr
+        [2] node: 8
+        [2] return 8
+    [1] return 8
+[0] return 3
+```
+
+可以看到这种方法可以很直观地看出递归的过程，我们很容易分析出这个算法的执行流程。
+
 
 
 # 第零章、核心框架汇总
