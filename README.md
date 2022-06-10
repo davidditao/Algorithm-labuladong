@@ -506,6 +506,12 @@ public:
 
 
 
+### 🎁二叉树的最近公共节点：[236. 二叉树的最近公共祖先](https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/)
+
+自己写的题解：[二叉树的最近公共祖先大集合：后序遍历](https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/solution/er-cha-shu-de-gong-gong-zu-xian-by-pedan-00fs/)
+
+
+
 ## 4. 手把手刷图算法
 
 ### 🎁图论基础：[797. 所有可能的路径](https://leetcode.cn/problems/all-paths-from-source-to-target/)
@@ -663,10 +669,6 @@ public:
 ### 🎁接雨水：[42. 接雨水](https://leetcode.cn/problems/trapping-rain-water/)
 
 自己写的题解：[接雨水：动态规划+双指针+单调栈](https://leetcode.cn/problems/trapping-rain-water/solution/jie-yu-shui-by-pedantic-mcleanbpp-jpqm/)
-
-
-
-
 
 
 
