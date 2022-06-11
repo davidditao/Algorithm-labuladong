@@ -16,6 +16,7 @@ void debug(int count){
     for(int i = 0; i < count; i++){
         printf("    ");
     }
+    // 这句可以不写
     printf("[%d] ", count);
 }
 ```
@@ -59,6 +60,7 @@ private:
     // 调试
     int _count = 0;
     void debug(int count){
+        // 打印 count 个缩进
         for(int i = 0; i < count; i++){
             printf("    ");
         }
