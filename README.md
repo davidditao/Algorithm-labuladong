@@ -646,6 +646,12 @@ public:
 
 
 
+### 🎁完全二叉树的节点个数：[222. 完全二叉树的节点个数](https://leetcode.cn/problems/count-complete-tree-nodes/)
+
+自己写的题解：[完全二叉树的节点个数：普通二叉树 + 满二叉树](https://leetcode.cn/problems/count-complete-tree-nodes/solution/by-pedantic-mcleanbpp-ebl6/)
+
+
+
 ## 4. 手把手刷图算法
 
 ### 🎁图论基础：[797. 所有可能的路径](https://leetcode.cn/problems/all-paths-from-source-to-target/)
