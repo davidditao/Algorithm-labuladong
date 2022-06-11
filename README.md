@@ -62,6 +62,7 @@ private:
         for(int i = 0; i < count; i++){
             printf("    ");
         }
+        // e
         printf("[%d] ", count);
     }
 
