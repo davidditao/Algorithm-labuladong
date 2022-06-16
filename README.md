@@ -136,7 +136,7 @@ private:
 [0] return 3
 ```
 
-可以看到这种方法可以很直观地看出递归的过程，我们很容易分析出这个算法的执行流程。
+可以看到这种方法可以很直观地看出递归的过程，我们很容易就能分析出这个算法的执行流程。
 
 
 
@@ -694,6 +694,18 @@ public:
 
 
 
+### 🎁最小生成树：[1584. 连接所有点的最小费用](https://leetcode.cn/problems/min-cost-to-connect-all-points/)
+
+自己写的题解：[最小生成树：Kruskal + Prim - 连接所有点的最小费用 - 力扣（LeetCode）](https://leetcode.cn/problems/min-cost-to-connect-all-points/solution/lian-jie-suo-you-dian-de-zui-xiao-fei-yo-3o3u/)
+
+
+
+### 🎁最短路径：
+
+
+
+
+
 ## 5. 手把手设计数据结构
 
 ### 🎁单调栈： [496. 下一个更大元素 I](https://leetcode.cn/problems/next-greater-element-i/)
@@ -742,6 +754,12 @@ public:
 
 
 
+### 🎁设计朋友圈时间线功能：[355. 设计推特](https://leetcode.cn/problems/design-twitter/)
+
+自己写的题解：[设计推特：哈希表+链表+优先队列 ](https://leetcode.cn/problems/design-twitter/solution/she-ji-tui-te-by-pedantic-mcleanbpp-6gn8/)
+
+
+
 # 第二章、手把手刷动态规划
 
 ## 1. 动态规划基本技巧
@@ -772,7 +790,40 @@ public:
 
 
 
-## 3. 用动态规划玩游戏
+## 3. 背包问题
+
+### 🎁0-1背包问题：
+
+**问题描述：** 给你一个可装载重量为 `W` 的背包和 `N` 个物品，每个物品有重量和价值两个属性。其中第 `i` 个物品的重量为 `wt[i]`，价值为 `val[i]`，现在让你用这个背包装物品，最多能装的价值是多少？
+
+```C++
+int knapsack(int w, int n, vector<int> &wt, vector<int> &val) {
+    vector<vector<int>> dp(n + 1, vector<int>(w + 1, 0));
+//         for(int i = 0; i < dp.size(); i++){
+//             dp[i][0] = 0;
+//         }
+    for(int i = 1; i < dp.size(); i++){
+        for(int j = 1; j < dp[0].size(); j++){
+            if(j - wt[i-1][0] < 0){
+                dp[i][j] = dp[i - 1][j];
+            } else {
+                dp[i][j] = max(dp[i - 1][j], dp[i - 1][j - wt[i-1][0]] + val[i-1][1]);
+            }
+        }
+    }
+    return dp[n][w];
+}
+```
+
+
+
+### 🎁子集背包问题：[416. 分割等和子集](https://leetcode.cn/problems/partition-equal-subset-sum/)
+
+自己写的题解：[分割等和的子集：0-1 背包问题 ](https://leetcode.cn/problems/partition-equal-subset-sum/solution/0-1-by-pedantic-mcleanbpp-ub8q/)
+
+
+
+## 4. 用动态规划玩游戏
 
 ### 🎁魔塔游戏：[174. 地下城游戏](https://leetcode.cn/problems/dungeon-game/)
 
