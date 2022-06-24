@@ -150,11 +150,15 @@ private:
 
 ### 🎁合并链表：[23. 合并K个升序链表](https://leetcode.cn/problems/merge-k-sorted-lists/)
 
+[剑指 Offer II 078. 合并排序链表](https://leetcode.cn/problems/vvXgSW/)
+
 自己写的题解：[合并K个升序链表：优先队列](https://leetcode.cn/problems/merge-k-sorted-lists/solution/by-pedantic-mcleanbpp-lkxs/)
 
 
 
 ### 🎁环形链表：[142. 环形链表 II](https://leetcode.cn/problems/linked-list-cycle-ii/)
+
+[剑指 Offer II 022. 链表中环的入口节点](https://leetcode.cn/problems/c32eOV/)
 
 自己写的题解：[环形链表：双指针](https://leetcode.cn/problems/linked-list-cycle-ii/solution/huan-xing-lian-biao-by-pedantic-mcleanbp-ljwq/)
 
@@ -823,11 +827,31 @@ int knapsack(int w, int n, vector<int> &wt, vector<int> &val) {
 
 
 
+### 🎁完全背包问题：[518. 零钱兑换 II](https://leetcode.cn/problems/coin-change-2/)
+
+
+
+### 🎁动态规划与回溯：[494. 目标和](https://leetcode.cn/problems/target-sum/)
+
+
+
 ## 4. 用动态规划玩游戏
+
+### 🎁最小路径和：[64. 最小路径和](https://leetcode.cn/problems/minimum-path-sum/)
+
+自己写的题解：[最小路径和：从记忆化递归到动态规划](https://leetcode.cn/problems/minimum-path-sum/solution/zui-xiao-lu-jing-he-by-pedantic-mcleanbp-y1vi/)
+
+
 
 ### 🎁魔塔游戏：[174. 地下城游戏](https://leetcode.cn/problems/dungeon-game/)
 
 自己写的题解：[地下城游戏：DFS＋后序遍历+动态规划思想](https://leetcode.cn/problems/dungeon-game/solution/c-by-pedantic-mcleanbpp-hwv5/)
+
+
+
+### 🎁正则表达式匹配：[10. 正则表达式匹配](https://leetcode.cn/problems/regular-expression-matching/)
+
+自己写的题解：[正则表达式匹配：递归 + 记忆化 = 动态规划](https://leetcode.cn/problems/regular-expression-matching/solution/zheng-ze-biao-da-shi-by-pedantic-mcleanb-suav/)
 
 
 
