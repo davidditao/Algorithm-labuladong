@@ -166,6 +166,8 @@ private:
 
 ### 🎁相交链表：[160. 相交链表](https://leetcode.cn/problems/intersection-of-two-linked-lists/)
 
+[剑指 Offer II 023. 两个链表的第一个重合节点](https://leetcode.cn/problems/3u1WK4/)
+
 自己写的题解：[相交链表：双指针](https://leetcode.cn/problems/intersection-of-two-linked-lists/solution/xiang-jiao-lian-biao-shuang-zhi-zhen-by-8it64/)
 
 
@@ -852,6 +854,12 @@ int knapsack(int w, int n, vector<int> &wt, vector<int> &val) {
 ### 🎁正则表达式匹配：[10. 正则表达式匹配](https://leetcode.cn/problems/regular-expression-matching/)
 
 自己写的题解：[正则表达式匹配：递归 + 记忆化 = 动态规划](https://leetcode.cn/problems/regular-expression-matching/solution/zheng-ze-biao-da-shi-by-pedantic-mcleanb-suav/)
+
+
+
+### 🎁打家劫舍问题：[198. 打家劫舍](https://leetcode.cn/problems/house-robber/)
+
+自己写的题解：[打家劫舍：经典动态规划问题 ](https://leetcode.cn/problems/house-robber/solution/da-jia-jp-by-pedantic-mcleanbpp-i14r/)
 
 
 
