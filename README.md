@@ -863,6 +863,20 @@ int knapsack(int w, int n, vector<int> &wt, vector<int> &val) {
 
 
 
+### 🎁股票问题：[121. 买卖股票的最佳时机](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/)
+
+自己写的题解：[状态机解决所有股票问题！！！ - 买卖股票的最佳时机 - 力扣（LeetCode）](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/solution/gu-piao-wen-ti-by-pedantic-mcleanbpp-pta9/)
+
+
+
+## 5. 贪心类型问题
+
+### 🎁区间调度问题：[435. 无重叠区间](https://leetcode.cn/problems/non-overlapping-intervals/)
+
+自己写的题解：[无重叠区间：贪心算法 ](https://leetcode.cn/problems/non-overlapping-intervals/solution/wu-zhong-die-qu-jian-tan-xin-suan-fa-by-95odm/)
+
+
+
 # 第三章、必知必会算法技巧
 
 ## 1. 暴力搜索算法
@@ -892,6 +906,12 @@ int knapsack(int w, int n, vector<int> &wt, vector<int> &val) {
 
 
 ## 2. 经典面试题
+
+### 🎁分治算法：为运算符表达式设计优先级
+
+自己写的题解：[为运算符表达式设计优先级：分治算法 - 为运算表达式设计优先级](https://leetcode.cn/problems/different-ways-to-add-parentheses/solution/wei-yun-suan-fu-biao-da-shi-by-pedantic-icfl5/)
+
+
 
 ### 🎁接雨水：[42. 接雨水](https://leetcode.cn/problems/trapping-rain-water/)
 
