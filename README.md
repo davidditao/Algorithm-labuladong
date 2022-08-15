@@ -869,6 +869,12 @@ int knapsack(int w, int n, vector<int> &wt, vector<int> &val) {
 
 
 
+### 🎁KMP 字符匹配算法：[28. 实现 strStr()](https://leetcode.cn/problems/implement-strstr/)
+
+自己写的题解：[实现 strStr()：KMP 算法](https://leetcode.cn/problems/implement-strstr/solution/by-pedantic-mcleanbpp-cmhh/)
+
+
+
 ## 5. 贪心类型问题
 
 ### 🎁区间调度问题：[435. 无重叠区间](https://leetcode.cn/problems/non-overlapping-intervals/)
