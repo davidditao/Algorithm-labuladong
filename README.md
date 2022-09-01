@@ -716,35 +716,7 @@ public:
 
 ### 🎁单调栈： [496. 下一个更大元素 I](https://leetcode.cn/problems/next-greater-element-i/)
 
-**难度简单**
-
-```C++
-class Solution {
-public:
-    vector<int> nextGreaterElement(vector<int>& nums1, vector<int>& nums2) {
-        stack<int> stk;
-        vector<int> nge(nums2.size(), 0);
-        unordered_map<int, int> map;
-        for(int i = 0; i < nums2.size(); i++){
-            map[nums2[i]] = i; 
-        }
-        for(int i = nums2.size() - 1; i >= 0; i--){
-            while(!stk.empty() && stk.top() <= nums2[i]){
-                stk.pop();
-            }
-            nge[i] = stk.empty() ? -1 : stk.top();
-            stk.push(nums2[i]);
-        }
-        vector<int> res;
-        for(int n : nums1){
-            int i = map[n];
-            res.push_back(nge[i]);
-        }
-
-        return res;
-    }
-};
-```
+自己写的题解：[496. 下一个更大元素 I：单调栈](https://leetcode.cn/problems/next-greater-element-i/solution/496-xia-yi-ge-geng-da-yuan-su-i-by-david-velf/)
 
 
 
